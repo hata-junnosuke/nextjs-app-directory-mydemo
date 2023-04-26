@@ -1,5 +1,6 @@
 import { prisma } from "@/globals/db";
 import { NextResponse } from "next/server";
+import { zUpsertNote } from "@/app/notes/type";
 
 // 1. 動的レンダリングを強制する
 export const dynamic = 'force-dynamic';
